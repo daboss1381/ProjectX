@@ -48,7 +48,6 @@ grails.project.dependency.resolution = {
         //runtime ":yui-minify-resources:0.1.4"
 
         build ":tomcat:$grailsVersion"
-        //build ":git:1.0-SNAPSHOT"
 
         runtime ":database-migration:1.1"
 
@@ -58,6 +57,9 @@ grails.project.dependency.resolution = {
         compile ":zkui:0.5.4"
         compile ":spring-security-core:1.2.7.3"
         compile ":navigation:1.3.2"
-        compile ":web-snaps:0.1"        
+        compile ":web-snaps:0.1"
+        compile ':heroku:1.0.1'
+        compile ':cloud-support:1.0.8'
+        compile ":mongodb:1.1.0.GA"
     }
 }

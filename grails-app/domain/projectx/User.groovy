@@ -1,7 +1,7 @@
 package projectx
 
 class User {
-
+            
 	transient springSecurityService
 
 	String username

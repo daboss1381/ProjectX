@@ -8,12 +8,7 @@
 <body>
 <z:window style="padding:5px" apply="projectx.register.CreateComposer">
     <z:grid>
-        <z:columns sizable="true">
-            <z:column label="${message(code:'name',default:'Name')}" width="100px"/>
-            <z:column label="${message(code:'value',default:'Value')}"/>
-        </z:columns>
         <tmpl:form/>
-        <webcam:webcamAnchor/>
     </z:grid>
     <z:hlayout>
         <z:button id="saveButton" label="${message(code: 'default.button.create.label', default: 'Create')}"/>

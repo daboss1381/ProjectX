@@ -41,3 +41,11 @@ environments {
         }
     }
 }
+
+//DATASOURCE for mongoDB
+grails {
+    mongo {
+        host = "localhost"
+        port = 27017
+    }
+}

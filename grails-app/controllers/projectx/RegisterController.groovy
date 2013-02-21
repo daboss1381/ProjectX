@@ -1,16 +1,13 @@
 package projectx
 
-import grails.plugins.springsecurity.Secured
+class RegisterController {
 
-class RegisterController {  
-    
     def index = {
         redirect(action: "list", params: params)
     }
 
     def list = {}
-    
-    @Secured(['ROLE_ADMIN'])
+
     def create = {
         def registerInstance = new Register()
         registerInstance.properties = params
