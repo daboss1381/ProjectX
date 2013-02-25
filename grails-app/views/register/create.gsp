@@ -10,10 +10,12 @@
     <z:grid>
         <tmpl:form/>
     </z:grid>
+    <webcam:webcamAnchor/>
     <z:hlayout>
         <z:button id="saveButton" label="${message(code: 'default.button.create.label', default: 'Create')}"/>
         <z:button href="${createLink(action:'list')}" label="${message(code: 'default.list.label', args:[entityName])}"/>
     </z:hlayout>
 </z:window>
+<webcam:webcamAnchor/>
 </body>
 </html>

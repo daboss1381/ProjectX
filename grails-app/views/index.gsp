@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+  <head>
+  <webcam:head/>
 </head>
 <body>
   <div id="page-body" role="main">
@@ -12,5 +14,6 @@
       </ul>
     </div>
   </div>
+  <webcam:webcamAnchor/>
 </body>
 </html>
